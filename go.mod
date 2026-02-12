@@ -1,4 +1,4 @@
-module ariga.io/atlas-provider-bun
+module github.com/Andy-With/atlas-provider-bun
 
 go 1.24.3
 
