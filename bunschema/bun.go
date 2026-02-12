@@ -356,6 +356,8 @@ func orderModels(models []any) []any {
 				hasM2M = true
 			case strings.Contains(tag, "rel:belongs-to"):
 				hasBelongsTo = true
+			case strings.Contains(tag, "rel:has-one"):
+				hasBelongsTo = true
 			}
 		}
 		switch {
